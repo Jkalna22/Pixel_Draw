@@ -103,7 +103,8 @@ function addNewColor() {
 
     
 }
-    
+// Comment: If you try and adjust the grid it'll keep adding the same color. The reason being is because you have the grid button inside of the
+// addColor div. 
 $('.addColor button').click(addNewColor);
 
 let mouseIsDown = false;
