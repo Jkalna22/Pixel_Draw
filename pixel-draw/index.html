@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <header>RETRO DRAW</header>
+    <main>
+      <section class="palette">
+      </section>
+      <section class="grid"></section>
+      <section class="controls">
+        <button class="fill-all">FILL ALL CELLS</button>
+        <button class="fill-empty">FILL EMPTY CELLS</button>
+        <button class="clear">CLEAR ALL CELLS</button>
+        <form>
+          <div class='addColor'>
+            <h2>Add Some New Colors</h2>
+            <label for="color">Add a color: </label>
+            <input type="text" id="colorId" name="textToColor">
+            <div>
+              <button type='button'>Submit</button>
+            </div>
+          </div>
+          <div class='gridSize'>
+              <h2>Custom Grid Size</h2>
+              <label for="grid">Width: </label>
+              <input type="number" id="gridIdWidth" name="gridToSizeWidth">
+              <label for="grid">Height: </label>
+              <input type="number" id="gridIdHeight" name="gridToSizeHeight">
+              <div>
+                <button type='button'>Submit</button>
+          </div>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
